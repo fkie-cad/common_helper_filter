@@ -1,11 +1,12 @@
 # common_helper_filter
+[![Build Status](https://travis-ci.org/fkie-cad/common_helper_filter.svg?branch=master)](https://travis-ci.org/fkie-cad/common_helper_filter)
 
 Generate nice structured output of data.
 
 ## time
 
 Examples:
-´´´python
+```python
 from common_helper_filter import time_format
 
 print(time_format(122))
@@ -23,4 +24,4 @@ print(time_format(122).format(description='none'))
 print(time_format(63072000))
 >> 2y, 0d, 0h, 0m, 0s
 
-´´´
+```
