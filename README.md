@@ -5,6 +5,8 @@ Generate nice structured output of data.
 
 ## time
 
+Converts seconds in nicly formated strings.
+
 Examples:
 ```python
 from common_helper_filter import time_format
