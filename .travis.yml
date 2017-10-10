@@ -5,6 +5,8 @@ python:
 # command to install dependencies
 install: 
   - "python setup.py -q install"
-  - "pip install pytest-pep8 pytest-cov"
+  - "pip install pytest-pep8 pytest-cov codecov"
 # command to run tests
 script: pytest --cov=./
+after_success:
+- codecov
