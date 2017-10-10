@@ -8,3 +8,5 @@ install:
   - "pip install pytest-pep8"
 # command to run tests
 script: pytest
+after_success:
+  - codecov
