@@ -1,5 +1,6 @@
 # common_helper_filter
 [![Build Status](https://travis-ci.org/fkie-cad/common_helper_filter.svg?branch=master)](https://travis-ci.org/fkie-cad/common_helper_filter)
+[![codecov](https://codecov.io/gh/fkie-cad/common_helper_filter/branch/master/graph/badge.svg)](https://codecov.io/gh/fkie-cad/common_helper_filter)
 
 Generate nice structured output of data.
 
