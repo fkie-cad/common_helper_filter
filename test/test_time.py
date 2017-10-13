@@ -17,3 +17,7 @@ def test_time_format_different_descriptions(input_seconds, description, expected
 
 def test_time_format_simple():
     assert '{}'.format(time_format(65)) == '1m, 5s'
+
+
+def test_repr_function():
+    assert time_format(65).__repr__() == '1m, 5s'
